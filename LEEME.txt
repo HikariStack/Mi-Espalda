@@ -1,0 +1,28 @@
+MI ESPALDA · App web instalable (PWA)
+=====================================
+
+CÓMO SUBIRLA
+1. Descomprime el ZIP. Dentro está la carpeta "mi-espalda" con index.html.
+2. Sube el CONTENIDO de esa carpeta a tu hosting (Netlify, Vercel, GitHub Pages,
+   Hostinger, etc.). Tiene que servirse por HTTPS.
+   - Netlify: entra en app.netlify.com/drop y arrastra la carpeta. Listo.
+   - Subcarpeta: también funciona en tudominio.es/mi-espalda/ (rutas relativas).
+3. Abre la dirección en Safari desde el iPhone.
+4. Botón Compartir -> "Añadir a pantalla de inicio".
+
+Se abre a pantalla completa con su icono y funciona sin conexión.
+
+TUS DATOS
+- Se guardan solo en tu iPhone (almacenamiento local del navegador).
+- Haz copias desde Progreso -> "Copia de seguridad" -> Copiar datos, y guárdalas en Notas.
+- Si borras los datos de Safari o desinstalas la app, se pierden los registros.
+
+ESTRUCTURA
+index.html              página principal
+manifest.webmanifest    nombre, colores e iconos de la app
+sw.js                   caché para funcionar offline
+css/app.css             estilos
+js/                     lógica (datos, mapa corporal, ejercicios, rutinas, gráficos)
+icons/                  iconos de la app
+
+AVISO: es un diario personal y no sustituye el consejo de un médico o fisioterapeuta.
